@@ -1,5 +1,7 @@
 # setTimeoutForInDesign
-setTimeout and clearTimeout  for InDesign ExtendScript – just like the well known Javascript functions known from Browsers.
+**setTimeout and clearTimeout**  for InDesign ExtendScript – just like the well known Javascript functions known from Browsers.
+
+These functions do not block InDesign or your users like $.sleep does. setTimeout is built on InDesign's idleTasks.
 
 Include the code from setTimeout.jsx into your code.
 
